@@ -14,6 +14,15 @@ class Post extends Component {
     this.key = Date.now();
   }
 
+  pluralize(word, n) {
+    let singluar = ` ${word}`;
+    let pluralized = ` ${word}s`;
+    if (n === 1) {
+      return singluar
+    }
+    return pluralized;
+  }
+
   render() {
     return (
       <div key={this.props.post.index} className="row mt-4 p-2 bg-light border rounded">
@@ -22,7 +31,7 @@ class Post extends Component {
         </div>
         <div className="col-7">
           <h4>{this.props.post.title}</h4>
-          <span>Votes: {this.props.post.votes}</span>
+          <span>{`${this.pluralize('Vote', this.props.post.votes)}: ${this.props.post.votes}`}</span>
           <FontAwesomeIcon icon={fas.faFire} className="ml-2 text-success button-cursor unselectable" onClick={() => this.props.upVote(this.props.post)}/> 
           <FontAwesomeIcon icon={fas.faPoo} className="ml-2 text-danger button-cursor unselectable" onClick={() => this.props.downVote(this.props.post)}/> 
           <p>{this.props.post.body}</p>

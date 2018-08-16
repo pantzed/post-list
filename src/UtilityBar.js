@@ -14,7 +14,7 @@ class UtilityBar extends Component {
         <div className="col-11">
           <div className="dropdown">
             <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Sort By {this.state.sortBy}
+              Sort By {this.props.sortBy}
             </button>
             <div className="dropdown-menu" aria-labelledby="dropdownMenuButton" onClick={(event) => this.props.updateSortBy(event)}>
               <a className="dropdown-item" href="/" value="title">Title</a>

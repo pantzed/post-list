@@ -26,7 +26,6 @@ class PostList extends Component {
   }
 
   downVote(post) {
-    console.log(post);
     if (post.votes > 0) {
       post.votes -= 1;
       posts.forEach((el, index) => {
@@ -55,7 +54,7 @@ class PostList extends Component {
     return (
       <div className="row d-flex justify-content-center mt-5">
         <div className="col-11">
-          {sortedPosts.map((post, index) => <Post post={post} key={index.toString()} upVote={this.upVote} downVote={this.downVote} />)}
+          {sortedPosts.map((post, index) => <Post post={post} key={index.toString()} upVote={this.upVote} downVote={this.downVote}/>)}
         </div>
       </div>
     )
