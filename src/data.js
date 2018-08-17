@@ -14,7 +14,7 @@ const posts = [
    },
    {
      id: 2,
-     title: `Berry Happy Post`,
+     title: `There's a Lake Here`,
      author: `Emo Emma`,
      imgURL: `https://images.pexels.com/photos/1118866/pexels-photo-1118866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350`,
      body: `Bacon ipsum dolor amet short ribs cupim shankle sirloin shank brisket picanha short loin bresaola meatball tri-tip. 
@@ -26,7 +26,7 @@ const posts = [
    },
    {
      id: 3,
-     title: `There's a Lake Here` ,
+     title: `Berry Happy Post` ,
      author: `Hispter Henry`,
      imgURL: `https://images.pexels.com/photos/583840/pexels-photo-583840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350`,
      body: `Tail ground round tenderloin ham venison, chicken corned beef shoulder buffalo boudin pastrami. 
