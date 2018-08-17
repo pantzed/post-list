@@ -38,7 +38,6 @@ class Post extends Component {
   }
 
   toggleHidden() {
-    console.log(this);
     this.setState({
       isHidden: !this.state.isHidden,
     });
