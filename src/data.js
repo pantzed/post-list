@@ -1,35 +1,37 @@
 const posts = [
    {
      id: 1,
-     title: `A Poem By Me`,
+     title: `Trees and Stuff`,
      author: `Iconic Irma`,
      imgURL: `https://images.pexels.com/photos/1314509/pexels-photo-1314509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350`,
-     body: `Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.`,
+     body: `Kevin t-bone frankfurter, buffalo sirloin strip steak burgdoggen brisket capicola andouille jerky pastrami 
+     fatback short ribs. Ball tip boudin andouille frankfurter leberkas ground round, chicken landjaeger spare ribs. 
+     Jowl meatball shankle pork tail, boudin bacon beef. Biltong shankle ham hock cow, strip steak pastrami ribeye 
+     turkey leberkas capicola tongue jowl. T-bone jowl sausage turkey filet mignon shankle landjaeger strip steak pork 
+     loin beef chuck chicken. Biltong corned beef tail beef ground round cow buffalo.`,
      comments: [`what a time to be alive`, `Not a fan tbh`],
      votes: 3,
    },
    {
      id: 2,
-     title: `Oh Poem My Poem`,
+     title: `Berry Happy Post`,
      author: `Emo Emma`,
      imgURL: `https://images.pexels.com/photos/1118866/pexels-photo-1118866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350`,
-     body: `The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe
-     uses the same vocabulary. The languages only differ in their grammar, their pronnunciation and their most common words. Everyone realzies why a new
-     common language would be desirable: one could refuse to pay expensive translators. To acheive this, it would be necessary to have uniform grammar,
-     pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the
-     individual languages. The new common language would be more...`,
+     body: `Bacon ipsum dolor amet short ribs cupim shankle sirloin shank brisket picanha short loin bresaola meatball tri-tip. 
+     Beef fatback doner short loin biltong pork. Boudin kevin short ribs, andouille bresaola bacon brisket ribeye. 
+     Shoulder capicola alcatra jerky, buffalo kevin ground round spare ribs ham turducken frankfurter filet mignon drumstick tri-tip. 
+     Jowl capicola jerky filet mignon. Pork chop pork loin meatball kielbasa.`,
      comments: [],
      votes: 1,
    },
    {
      id: 3,
-     title: `It's All About Me |` ,
+     title: `There's a Lake Here` ,
      author: `Hispter Henry`,
      imgURL: `https://images.pexels.com/photos/583840/pexels-photo-583840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350`,
-     body: `A wonderful serenty has taken possession of my entire sould, like these sweet mornings of spring which I enjoy with my whole heart.
-     I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend,
-     so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at
-     the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with...`,
+     body: `Tail ground round tenderloin ham venison, chicken corned beef shoulder buffalo boudin pastrami. 
+     Pork chop ham pork belly pork loin tail. Andouille turducken frankfurter prosciutto. Short loin frankfurter prosciutto ham. 
+     Spare ribs ham turkey, capicola shankle alcatra kielbasa tail picanha turducken beef jowl pork.`,
      comments: [`what a time to be alive`],
      votes: 2,
    }
