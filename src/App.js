@@ -27,6 +27,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Welcome to Postly</h1>
+          <h6><i>A generic startup name</i></h6>
         </header>
         <div className="container-fluid">
           <UtilityBar sortBy={sortProperty} updateSortBy={this.updateSortBy}/>
