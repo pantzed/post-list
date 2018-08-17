@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to Hell</h1>
+          <h1 className="App-title">Welcome to Postly</h1>
         </header>
         <div className="container-fluid">
           <UtilityBar sortBy={sortProperty} updateSortBy={this.updateSortBy}/>

@@ -9,6 +9,7 @@ class PostList extends Component {
     this.state = {
       sortBy: this.props.sortBy,
       posts: posts,
+      isHidden: true,
     }
     this.key = Date.now().toString();
     this.upVote = this.upVote.bind(this);
@@ -52,7 +53,7 @@ class PostList extends Component {
   render() {
     const sortedPosts = this.sortPosts(posts, this.props.sortBy);
     return (
-      <div className="row d-flex justify-content-center mt-5">
+      <div className="row d-flex justify-content-center my-5">
         <div className="col-11">
           {sortedPosts.map((post, index) => <Post post={post} key={index.toString()} upVote={this.upVote} downVote={this.downVote}/>)}
         </div>
